@@ -1,0 +1,32 @@
+Находим файл в git(Program Files\Git\usr\bin)
+xampp\apache\bin
+C:\xampp\apache\bin\openssl.exe req -x509 -sha256 -days 1825 -newkey rsa:2048 -keyout rootCA.key -out rootCA.crt -nodes
+
+Запускаем "cmd" и переходим в папку проект
+cd C:/Users/Valerii/Desktop/PHP/
+Cоздаем папку для сертификатов (однократно)
+Создать СА - центр сертификации
+C:\xampp\apache\bin\openssl.exe req -x509 -sha256 -days 1825 -newkey rsa:2048 -keyout rootCA.key -out rootCA.crt -nodes
+
+
+Country Name (2 letter code) [AU]:UA
+State or Province Name (full name) [Some-State]:Ukraine
+Locality Name (eg, city) []:Odessa
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:IT Step
+Organizational Unit Name (eg, section) []:CA
+Common Name (e.g. server FQDN or YOUR name) []:pv011.local
+Email Address []:
+
+
+Country Name (2 letter code) [AU]:UA
+State or Province Name (full name) [Some-State]:Ukraine
+Locality Name (eg, city) []:Odessa
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:Group
+Organizational Unit Name (eg, section) []:PV 011
+Common Name (e.g. server FQDN or YOUR name) []:php.local
+Email Address []:
+
+Please enter the following 'extra' attributes
+to be sent with your certificate request
+A challenge password []:
+An optional company name []:
